@@ -1,94 +1,43 @@
 {
     "auth": {
-        "username": "<Your BrowserStack username>",
-        "access_key": "<Your BrowserStack access key>"
+        "username": "sosnowski_Rfr3lx",
+        "access_key": "pGqyhkws6LkDvYtmwoQD"
     },
     "browsers": [
         {
-            "browser": "chrome",
-            "os": "Windows 10",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
             "browser": "firefox",
-            "os": "Windows 10",
+            "os": "OS X Mojave",
             "versions": [
-                "latest",
-                "latest-1"
+                "latest"
             ]
         },
         {
             "browser": "edge",
             "os": "Windows 10",
             "versions": [
-                "latest",
-                "latest-1"
+                "latest"
             ]
         },
         {
             "browser": "chrome",
             "os": "OS X Mojave",
             "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
-            "browser": "firefox",
-            "os": "OS X Mojave",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
-            "browser": "edge",
-            "os": "OS X Mojave",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
-            "browser": "chrome",
-            "os": "OS X Catalina",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
-            "browser": "firefox",
-            "os": "OS X Catalina",
-            "versions": [
-                "latest",
-                "latest-1"
-            ]
-        },
-        {
-            "browser": "edge",
-            "os": "OS X Catalina",
-            "versions": [
-                "latest",
-                "latest-1"
+                "latest"
             ]
         }
     ],
     "run_settings": {
-        "cypress_config_file": "/path/to/<cypress config file>.json",
-        "project_name": "project-name",
-        "build_name": "build-name",
+        "cypress_config_file": "cypress.json",
+        "project_name": "ebiznes-tests",
+        "build_name": "ebiznes",
         "exclude": [],
-        "parallels": "Number of parallels you want to run",
+        "parallels": 3,
         "npm_dependencies": {},
         "package_config_options": {},
         "headless": true
     },
     "connection_settings": {
-        "local": false,
+        "local": true,
         "local_identifier": null,
         "local_mode": null,
         "local_config_file": null
